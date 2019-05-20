@@ -1,3 +1,4 @@
+import java.util.Calendar
 public class ApCalendar
 {
     private static boolean isLeapYear(int year)
@@ -21,16 +22,16 @@ public class ApCalendar
 
     private static int firstDayYear(int year)
     {
-
+        return(year%7);
     }
 
     private static int dayOfYear(int month, int day, int year)
     {
-
+        return 0;
     }
 
     public static int dayOfMonth(int month,int day,int year)
     {
-
+        return 0;
     }
 }
